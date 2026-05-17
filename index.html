@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dan - System Engineer Portfolio</title>
+    <meta name="description" content="Portfolio of Dan, System Engineer focusing on DevOps, Automation, and Cloud Services.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@400;600;800&display=swap" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <header class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="logo">Dan<span>.</span></a>
+            <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <nav class="nav-links">
+                <a href="#home" class="nav-link active">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#experience" class="nav-link">Experience</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="hero-content hidden">
+                <h2 class="subtitle">Hello, I'm</h2>
+                <h1 class="title">Dan</h1>
+                <h3 class="role">System Engineer & DevOps Enthusiast</h3>
+                <p class="description">
+                    Passionate about automation, cloud services, and building efficient CI/CD pipelines. Transforming ideas into scalable realities.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">View Projects</a>
+                    <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                </div>
+            </div>
+            <div class="hero-visual hidden">
+                <div class="glow-orb"></div>
+                <div class="glass-card main-card">
+                    <div class="code-block">
+                        <span class="keyword">const</span> <span class="variable">developer</span> = {<br>
+                        &nbsp;&nbsp;name: <span class="string">"Dan"</span>,<br>
+                        &nbsp;&nbsp;role: <span class="string">"System Engineer"</span>,<br>
+                        &nbsp;&nbsp;skills: [<span class="string">"Linux"</span>, <span class="string">"Docker"</span>, <span class="string">"CI/CD"</span>]<br>
+                        };<br>
+                        <span class="keyword">developer</span>.<span class="method">deploy</span>();
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section">
+            <div class="section-header hidden">
+                <h2>About Me</h2>
+                <p>Get to know me better</p>
+            </div>
+            <div class="about-content hidden">
+                <div class="about-text glass-panel">
+                    <p>As a technology enthusiast and System Engineer, I am focused on bridging the gap between development and operations. I'm actively exploring automation, cloud architecture, and modern deployment pipelines to streamline workflows and enhance system reliability.</p>
+                    <p>My goal is to apply these skills to complex, real-world projects while continuously expanding my expertise in the ever-evolving DevOps landscape. I firmly believe in the power of collaboration, automation, and continuous improvement.</p>
+                </div>
+                <div class="about-stats">
+                    <div class="stat-card glass-panel">
+                        <h3>3+</h3>
+                        <p>Years Experience</p>
+                    </div>
+                    <div class="stat-card glass-panel">
+                        <h3>20+</h3>
+                        <p>Projects Completed</p>
+                    </div>
+                    <div class="stat-card glass-panel">
+                        <h3>100%</h3>
+                        <p>Commitment</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience" class="section">
+            <div class="section-header hidden">
+                <h2>Professional Experience</h2>
+                <p>My career journey so far</p>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item hidden">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content glass-panel">
+                        <h3>System Engineer</h3>
+                        <h4 class="company">Tech Solutions Inc. | 2024 - Present</h4>
+                        <ul>
+                            <li>Owned CI/CD pipelines to automate build, test, and deployment workflows.</li>
+                            <li>Deployed and operated resources including web servers, databases, and microservices.</li>
+                            <li>Improved incident response time by enabling centralized logging and actionable monitoring.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item hidden">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content glass-panel">
+                        <h3>IT Support Specialist</h3>
+                        <h4 class="company">Enterprise Corp | 2022 - 2024</h4>
+                        <ul>
+                            <li>Supported internal infrastructure and automated routine administrative tasks.</li>
+                            <li>Assisted with network operations by troubleshooting connectivity and resource issues.</li>
+                            <li>Reduced manual effort by creating bash and PowerShell automation scripts.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="section">
+            <div class="section-header hidden">
+                <h2>Technical Skills</h2>
+                <p>Technologies and tools I work with</p>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-category glass-panel hidden">
+                    <h3>Infrastructure</h3>
+                    <div class="skill-tags">
+                        <span>Linux</span>
+                        <span>Windows Server</span>
+                        <span>Networking</span>
+                        <span>Bash/PowerShell</span>
+                    </div>
+                </div>
+                <div class="skill-category glass-panel hidden">
+                    <h3>Containers & Cloud</h3>
+                    <div class="skill-tags">
+                        <span>Docker</span>
+                        <span>Kubernetes</span>
+                        <span>AWS</span>
+                        <span>Azure</span>
+                    </div>
+                </div>
+                <div class="skill-category glass-panel hidden">
+                    <h3>CI/CD & Automation</h3>
+                    <div class="skill-tags">
+                        <span>Git/GitHub</span>
+                        <span>Jenkins</span>
+                        <span>Ansible</span>
+                        <span>Terraform</span>
+                    </div>
+                </div>
+                <div class="skill-category glass-panel hidden">
+                    <h3>Monitoring</h3>
+                    <div class="skill-tags">
+                        <span>Prometheus</span>
+                        <span>Grafana</span>
+                        <span>ELK Stack</span>
+                        <span>Zabbix</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section">
+            <div class="section-header hidden">
+                <h2>Featured Projects</h2>
+                <p>Some of my recent work</p>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card glass-panel hidden">
+                    <div class="project-image" style="background-image: linear-gradient(45deg, #1e3a8a, #0284c7);"></div>
+                    <div class="project-info">
+                        <h3>Automated CI/CD Pipeline</h3>
+                        <p>A fully automated pipeline using GitHub Actions to build, test, and deploy a containerized application to a staging environment.</p>
+                        <div class="project-tech">
+                            <span>GitHub Actions</span>
+                            <span>Docker</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card glass-panel hidden">
+                    <div class="project-image" style="background-image: linear-gradient(45deg, #064e3b, #059669);"></div>
+                    <div class="project-info">
+                        <h3>Monitoring Dashboard</h3>
+                        <p>Centralized monitoring setup using Prometheus and Grafana to track server health and application metrics in real-time.</p>
+                        <div class="project-tech">
+                            <span>Prometheus</span>
+                            <span>Grafana</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card glass-panel hidden">
+                    <div class="project-image" style="background-image: linear-gradient(45deg, #4c1d95, #7c3aed);"></div>
+                    <div class="project-info">
+                        <h3>Infrastructure as Code</h3>
+                        <p>Provisioning cloud resources using Terraform to ensure reproducible and version-controlled environments.</p>
+                        <div class="project-tech">
+                            <span>Terraform</span>
+                            <span>AWS</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section">
+            <div class="section-header hidden">
+                <h2>Get In Touch</h2>
+                <p>Let's discuss opportunities and collaborations</p>
+            </div>
+            <div class="contact-container glass-panel hidden">
+                <div class="contact-info">
+                    <h3>Contact Information</h3>
+                    <p>I'm always interested in hearing about new opportunities and connecting with fellow tech enthusiasts.</p>
+                    <div class="social-links">
+                        <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="social-icon">GitHub</a>
+                        <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="social-icon">LinkedIn</a>
+                        <a href="mailto:hello@example.com" class="social-icon">Email</a>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" rows="5" placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2026 Dan. All rights reserved.</p>
+        <p class="footer-tag">Built with passion for System Engineering</p>
+    </footer>
+
+    <!-- Custom JS -->
+    <script src="js/script.js"></script>
+</body>
+</html>
