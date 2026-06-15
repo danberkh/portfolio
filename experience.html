@@ -2,15 +2,14 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="description" content="Dan — System Engineer. Portfolio.">
+    <meta name="description" content="Dan — Professional Experience">
     <meta name="viewport" content="width=device-width">
-    <title>Dan</title>
+    <title>Experience | Dan</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Geist+Mono:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <script>
-        // Prevent flash — apply theme before render
         const theme = (() => {
             if (typeof localStorage !== 'undefined' && localStorage.getItem('theme')) {
                 return localStorage.getItem('theme');
@@ -20,7 +19,6 @@
             }
             return 'light';
         })();
-
         if (theme === 'light') {
             document.documentElement.classList.remove('dark');
         } else {
@@ -34,8 +32,8 @@
     <nav>
         <div class="nav-inner">
             <div class="nav-links">
-                <a href="/" class="active">[/]</a>
-                <a href="experience.html">[/experience]</a>
+                <a href="index.html">[/]</a>
+                <a href="experience.html" class="active">[/experience]</a>
                 <a href="skills.html">[/skills]</a>
                 <a href="projects.html">[/projects]</a>
                 <a href="contact.html">[/contact]</a>
@@ -48,24 +46,27 @@
     </nav>
 
     <main>
-        <h1>Dan</h1>
-        <p>I'm a System Engineer who values clean, efficient infrastructure.<br>
-        I focus on automation, cloud architecture, and building reliable systems that solve real problems while keeping things simple.</p>
+        <h1>Experience</h1>
 
-        <h2>When</h2>
-        <p>I've been working with systems and infrastructure since 2022. Currently focused on DevOps, CI/CD, and cloud services.</p>
+        <div class="experience-entry">
+            <h2>System Engineer</h2>
+            <p class="experience-meta">Tech Solutions Inc. — 2024 – Present</p>
+            <ul>
+                <li>Owned CI/CD pipelines to automate build, test, and deployment workflows.</li>
+                <li>Deployed and operated resources including web servers, databases, and microservices.</li>
+                <li>Improved incident response time by enabling centralized logging and actionable monitoring.</li>
+            </ul>
+        </div>
 
-        <h2>Where</h2>
-        <p>Based in South America, working globally.</p>
-
-        <h2>Why</h2>
-        <p>I believe in the power of automation and continuous improvement.<br>
-        Every pipeline configured, every server hardened, every process streamlined is a step toward building something that lasts.<br>
-        I'm driven by the desire to create infrastructure that's invisible when it works — and that's the highest compliment a system can receive.</p>
-
-        <h1 class="quote">Build, automate, improve.</h1>
-
-        <p class="closing">I believe in shipping and iterating, even when things aren't perfect. Every deployment is a step forward, a trace of engineering worth leaving behind.</p>
+        <div class="experience-entry">
+            <h2>IT Support Specialist</h2>
+            <p class="experience-meta">Enterprise Corp — 2022 – 2024</p>
+            <ul>
+                <li>Supported internal infrastructure and automated routine administrative tasks.</li>
+                <li>Assisted with network operations by troubleshooting connectivity and resource issues.</li>
+                <li>Reduced manual effort by creating bash and PowerShell automation scripts.</li>
+            </ul>
+        </div>
     </main>
 
     <footer>
