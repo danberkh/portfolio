@@ -249,12 +249,29 @@ code {
   font-size: 0.7rem;
 }
 
+/* --- Header --- */
+header {
+  background: transparent;
+  padding: 2rem 0 1rem;
+  margin-bottom: 1.5rem;
+}
+
 pre {
-  background: var(--code-bg);
-  padding: 1rem;
-  border-radius: 4px;
+  background: transparent;
+  padding: 1rem 0;
+  border-radius: 0;
   overflow-x: auto;
   margin: 1rem 0;
+
+  /* Para ASCII art */
+  font-family: 'Courier New', 'Courier', monospace;
+  font-size: 14px;
+  line-height: 1;
+  white-space: pre;
+
+  /* Color naranja para tema claro y oscuro */
+  color: #ff8c42;
+  /* Naranja. Ajusta si prefieres otro tono */
 }
 
 pre code {
