@@ -12,8 +12,8 @@ document.addEventListener('DOMContentLoaded', async () => {
 
 async function loadPartials() {
     await Promise.all([
-        loadPartial('partials/header.html', 'header'),
-        loadPartial('partials/footer.html', 'footer'),
+        loadPartial('header.html', 'header'),
+        loadPartial('footer.html', 'footer'),
     ]);
 }
 
